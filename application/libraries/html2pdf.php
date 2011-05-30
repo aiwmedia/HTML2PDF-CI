@@ -144,7 +144,7 @@ class Html2pdf {
 	    if($mode == 'save') {
     	    $this->CI->load->helper('file');
 		    if(write_file($this->path.$this->filename, $dompdf->output())) {
-		    	return TRUE;
+		    	return $this->path.$this->filename;
 		    } else {
 				show_error("PDF could not be written to the path");
 		    }
