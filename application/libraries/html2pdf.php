@@ -14,7 +14,7 @@ class Html2pdf {
      * @access	public
      * @param	array	initialization parameters
      */	
-    function Html2pdf($params = array())
+    function __construct($params = array())
     {
         $this->CI =& get_instance();
         

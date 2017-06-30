@@ -1,7 +1,7 @@
-HTML2PDF-CI
+HTML2PDF-CI3
 =========================
 
-This is basically just a CI 2.0 wrapper for the dompdf library. Very basic functions at the moment, you can find an example controller in the files.
+This is basically just a CI 3.0+ wrapper for the dompdf library. Very basic functions at the moment, you can find an example controller in the files.
 
 Installation
 ------------
@@ -77,3 +77,4 @@ You can use the path returned by the create() function to email the PDF using th
 ChangeLog
 ---------
 * 0.1 - Got up and running with GitHub
+* 0.2 - Removed dapricated functions for php 7.0 + versions
