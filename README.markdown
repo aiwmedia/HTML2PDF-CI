@@ -6,8 +6,8 @@ This is basically just a CI 3.0+ wrapper for the dompdf library. Very basic func
 Installation
 ------------
 
-1.  Copy system/application/libraries/dompdf folder ()the whole thing) to your application/libraries folder
-2.  Copy system/application/libraries/html2pdf.php to your application/libraries folder
+1.  Copy application/libraries/dompdf folder (the whole thing) to your application/libraries folder
+2.  Copy application/libraries/html2pdf.php to your application/libraries folder
 
 Usage
 ------
